@@ -1,6 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: #DBDBDB;
+    background-color: #FAFAFA;
 }
 
 .top{
@@ -9,9 +9,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 1px solid #DBDBDB;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
-.top-center{
+.top-centering{
     width: 934px;
     display: flex;
     justify-content: space-between;
@@ -35,11 +39,19 @@ body{
     align-items: center;
 }
 
+.logoinsta-1:hover{
+    cursor: pointer;
+}
+
 .logoinsta-2{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 7px;
+}
+
+.logoinsta-2:hover{
+    cursor: pointer;
 }
 
 .bar-logo-v{
@@ -63,6 +75,10 @@ body{
     border: 1px solid #DBDBDB;
 }
 
+.search:hover{
+    cursor: text;
+}
+
 .menu{
     width: 120px;
     font-size: 18px;
@@ -71,3 +87,91 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon:hover{
+    cursor: pointer;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 88px;
+}
+
+.content-centering{
+    display: flex;
+    justify-content: center;
+    width: 935px;
+}
+
+.stories{
+    width: 614px;
+    height: 118px;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    border: 1px solid #DBDBDB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding-left: 24px;
+}
+
+.story{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 24px;
+}
+
+.story p{
+    font-size: 12px;
+    line-height: 14px;
+    color: #262626;
+    margin-top: 6px;
+    z-index: 1;
+}
+
+.story a{
+    z-index: 1;
+}
+
+.story-ring{
+    position: absolute;
+    top: -5px;
+}
+
+.story-ring img{
+    width: 66px;
+    height: 66px;
+}
+
+.rightarrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 8px;
+    z-index: 2;
+}
+
+.rightarrow img{
+    width: 26px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.rightarrow img:hover{
+    cursor: pointer;
+}
+
+
