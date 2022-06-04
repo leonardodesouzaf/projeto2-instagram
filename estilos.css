@@ -3,7 +3,7 @@ body{
     background-color: #FAFAFA;
 }
 
-.top{
+.top-centering{
     background-color: #FFFFFF;
     height: 54px;
     display: flex;
@@ -13,12 +13,15 @@ body{
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 10;
 }
 
-.top-centering{
+.top{
     width: 934px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    z-index: 10;
 }
 
 .logobox{
@@ -122,7 +125,8 @@ body{
     align-items: center;
     position: relative;
     overflow: hidden;
-    padding-left: 24px;
+    box-sizing: border-box;
+    padding-left: 30px;
 }
 
 .story{
@@ -131,7 +135,7 @@ body{
     justify-content: center;
     align-items: center;
     position: relative;
-    margin-left: 24px;
+    margin-left: 21px;
 }
 
 .story p{
@@ -172,6 +176,110 @@ body{
 
 .rightarrow img:hover{
     cursor: pointer;
+}
+
+.feed{
+    width: 614px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+.post{
+    width: 614px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    border-radius: 3px;
+    border: 1px solid #DBDBDB;
+}
+
+.post-top{
+    width: 614px;
+    height: 61px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 15px 17px;
+}
+
+.post-top p{
+    margin-left: 15px;
+}
+
+.post-top p:hover{
+    cursor: pointer;
+}
+
+.post-top img:hover{
+    cursor: pointer;
+}
+
+.post-user{
+    display: flex;
+    justify-content: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.strong-user-top{
+    margin-left: 15px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.post-image{
+    margin-left: 1px;
+}
+
+.post-bottom{
+    display: flex;
+    flex-direction: column;
+    width: 614px;
+    height: 76px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    padding: 6px 15px;
+}
+
+.post-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 38px;
+    font-size: 20px;
+}
+
+.post-icons-left{
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-heart:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.post-likes{
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    height: 38px;
+}
+
+.post-likes p{
+    font-weight: 300;
+    margin: 0px 5px;
+}
+
+.strong-user-bottom{
+    text-decoration: none;
+    color: #000000;
 }
 
 
