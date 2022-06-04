@@ -1,0 +1,73 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #DBDBDB;
+}
+
+.top{
+    background-color: #FFFFFF;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-center{
+    width: 934px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logobox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logobox img{
+    width: 103px;
+}
+
+.logoinsta-1{
+    font-size: 19.25px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoinsta-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+}
+
+.bar-logo-v{
+    height: 22px;
+    width: 1px;
+    background-color: #DBDBDB;
+    margin-left: 11.38px;
+    margin-right: 10px;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 215px;
+    height: 28px;
+    font-size: 12px;
+    color: #979797;
+    border-radius: 3px;
+    background-color: #FAFAFA;
+    border: 1px solid #DBDBDB;
+}
+
+.menu{
+    width: 120px;
+    font-size: 18px;
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
