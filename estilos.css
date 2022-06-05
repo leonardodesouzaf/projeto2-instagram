@@ -447,6 +447,8 @@ body{
 .bottom{
     background-color: #FFFFFF;
     height: 54px;
+
+    font-size: 18px;
     display: none;
     justify-content: space-between;
     align-items: center;
