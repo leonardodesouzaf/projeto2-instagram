@@ -281,11 +281,18 @@ body{
     color: #000000;
 }
 
+.sidebar-adjust{
+    width: 293px;
+    margin-left: 30px;
+}
+
 .sidebar{
     width: 293px;
     margin-left: 30px;
     display: flex;
     flex-direction: column;
+    position: fixed;
+    left: 62.81vw;
 }
 
 .sidebar-top{
@@ -422,4 +429,102 @@ body{
     line-height: 13px;
     color: #c7c7c7;
     width: 300px;
+}
+
+@media (max-width: 935px){
+    .sidebar{
+        display: none;
+    }
+    .sidebar-adjust{
+        display: none;
+    }
+}
+
+@media (max-width: 614px){
+    .sidebar{
+        display: none;
+    }
+    .bar-logo-v{
+        display: none;
+    }
+    .logoinsta-2{
+        left: 45vw;
+    }
+    .search{
+        display: none;
+    }
+    .menu {
+        width: 18px;
+        margin-right: 18px;
+    }
+    .menu :nth-child(2){
+        display: none;
+    }
+    .menu :nth-child(3){
+        display: none;
+    }
+    .menu :nth-child(4){
+        display: none;
+    }
+    .top-centering{
+        width: 100vw;
+        border-left: 0px;
+        border-right: 0px;
+    }
+    .top{
+        width: 100vw;
+        justify-content: space-between;
+        border-left: 0px;
+        border-right: 0px;
+    }
+    .logobox{
+        width: 55.3vw;
+        margin-left: 18px;
+        justify-content: space-between;
+    }
+    .rightarrow{
+        display: none;
+    }
+    .stories{
+        width: 100vw;
+        padding-left: 11vw;
+        border-left: 0px;
+        border-right: 0px;
+        background-color: none;
+    }
+    .content{
+        margin-top: 54px;
+    }
+    .content-centering{
+        width: 100vw;
+        border-left: 0px;
+        border-right: 0px;
+    }
+    .feed{
+        width: 100vw;
+        margin-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+    }   
+    .post{
+        width: 100vw;
+        margin-bottom: 60px;
+        border-left: 0px;
+        border-right: 0px;
+    }
+    .post-image img{
+        width: 100vw;
+        border-left: 0px;
+        border-right: 0px;
+    }
+    .post-top{
+        width: 100vw;
+        border-left: 0px;
+        border-right: 0px;
+    }
+    .post-bottom{
+        width: 100vw;
+        border-left: 0px;
+        border-right: 0px;
+    }
 }
