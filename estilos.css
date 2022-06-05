@@ -106,12 +106,13 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 88px;
+    width: 100vw;
 }
 
 .content-centering{
     display: flex;
     justify-content: center;
-    width: 935px;
+    width: 937px;
 }
 
 .stories{
@@ -121,12 +122,10 @@ body{
     border-radius: 3px;
     border: 1px solid #DBDBDB;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     position: relative;
     overflow: hidden;
-    box-sizing: border-box;
-    padding-left: 30px;
 }
 
 .story{
@@ -135,7 +134,7 @@ body{
     justify-content: center;
     align-items: center;
     position: relative;
-    margin-left: 21px;
+    margin-left: 23px;
 }
 
 .story p{
@@ -182,6 +181,10 @@ body{
     display: flex;
     flex-direction: column;
     margin-top: 24px;
+}
+
+.img-resize{
+    width: 612px;
 }
 
 .post{
@@ -287,17 +290,21 @@ body{
 }
 
 .sidebar{
-    width: 293px;
+    width: 37.8vw;
     margin-left: 30px;
     display: flex;
     flex-direction: column;
     position: fixed;
-    left: 62.81vw;
+    right: 0;
 }
 
 .sidebar-top{
     margin-top: 23px;
     display: flex;
+}
+
+.sidebar-top a{
+    text-decoration: none;
 }
 
 .sidebar-top-texts{
@@ -315,6 +322,10 @@ body{
     cursor: pointer;
 }
 
+.sidebar-username{
+    color: #000000;
+}
+
 .sidebar-top-texts :nth-child(1){
     font-weight: 500;
 }
@@ -326,6 +337,7 @@ body{
 
 .sidebar-suggestions{
     display: flex;
+    width: 293px;
     justify-content: space-between;
     margin-top: 24px;
 }
@@ -378,6 +390,7 @@ body{
 }
 
 .sidebar-suggestions-user-texts :nth-child(1){
+    text-decoration: none;
     font-size: 14px;
     line-height: 16.5px;
     font-weight: 500;
@@ -431,6 +444,55 @@ body{
     width: 300px;
 }
 
+.bottom{
+    background-color: #FFFFFF;
+    height: 54px;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    border-bottom: 1px solid #DBDBDB;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 10;
+    box-sizing: border-box;
+    padding: 0px 18px;
+}
+
+
+/* medias de 1340 a 1150 para o suggestion fixed não invadir o feed */
+
+@media (max-width: 1350px){
+    .sidebar{
+        width: 37vw;
+    }
+}
+
+@media (max-width: 1300px){
+    .sidebar{
+        width: 36vw;
+    }
+}
+
+@media (max-width: 1250px){
+    .sidebar{
+        width: 35vw;
+    }
+}
+
+@media (max-width: 1200px){
+    .sidebar{
+        width: 34vw;
+    }
+}
+
+@media (max-width: 1150px){
+    .sidebar{
+        width: 33vw;
+    }
+}
+
 @media (max-width: 935px){
     .sidebar{
         display: none;
@@ -438,9 +500,15 @@ body{
     .sidebar-adjust{
         display: none;
     }
+    .top{
+        padding: 0px 18px;
+    }
 }
 
 @media (max-width: 614px){
+    .bottom{
+        display: flex;
+    }
     .sidebar{
         display: none;
     }
@@ -476,6 +544,7 @@ body{
         justify-content: space-between;
         border-left: 0px;
         border-right: 0px;
+        padding: 0px 0px;
     }
     .logobox{
         width: 55.3vw;
@@ -487,9 +556,9 @@ body{
     }
     .stories{
         width: 100vw;
-        padding-left: 11vw;
         border-left: 0px;
         border-right: 0px;
+        border-bottom: 0px;
         background-color: none;
     }
     .content{
@@ -516,6 +585,7 @@ body{
         width: 100vw;
         border-left: 0px;
         border-right: 0px;
+        margin-left: -1px;
     }
     .post-top{
         width: 100vw;
