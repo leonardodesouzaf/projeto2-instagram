@@ -25,7 +25,7 @@
 
 ###
 
-<h2 align="left">Autor</h2>
+<h2 align="left">Author</h2>
 
 ###
 
