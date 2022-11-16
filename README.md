@@ -12,7 +12,7 @@
 
 ###
 
-<p align="left">In my second project in the full-stack web development course at Driven Education I've made an Instagram clone, the page have different layouts: one for desktop and two for mobile. In this project I've used the following technologies: HTML, CSS, Git and GitHub.</p>
+<p align="left">In my second project in the full-stack web development course at Driven Education I've made an Instagram clone, the page have different layouts: one for desktop and two for mobile. In this project I've used the following technologies: HTML, CSS and Git.</p>
 
 ###
 
@@ -21,7 +21,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" height="40" width="52" alt="css3 logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" height="40" width="52" alt="vscode logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg" height="40" width="52" alt="git logo"  />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" height="40" width="52" alt="github logo"  />
 </div>
 
 ###
