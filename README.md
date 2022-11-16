@@ -12,7 +12,7 @@
 
 ###
 
-<p align="left">In my second project I've made an Instagram clone, this is the first project I've uploaded to GitHub and my first step on the dev career. The page have different layouts: one for desktop and two for mobile. In this project I've used the following technologies: HTML, CSS and Git.</p>
+<p align="left">In my second project I've made an Instagram clone, this is the first project I've used Git and uploaded to GitHub, also it's my first step on the dev career. The page have different layouts: one for desktop and two for mobile. In this project I've used the following technologies: HTML, CSS and Git.</p>
 
 ###
 
